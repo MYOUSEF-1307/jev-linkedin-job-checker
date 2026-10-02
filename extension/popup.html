@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><title>JEV Verify</title><link rel="stylesheet" href="popup.css" /></head>
+  <body>
+    <header><div><span class="eyebrow">JEV VERIFY</span><h1>LinkedIn Job Checker</h1></div><label class="toggle"><input type="checkbox" id="enabled" /><span>On</span></label></header>
+    <p class="intro">Open an individual LinkedIn job listing, then check its risk signals before applying.</p>
+    <button id="verify" type="button">Verify this job with JEV</button>
+    <p id="status" class="status"></p>
+    <section id="result" hidden></section>
+    <details><summary>Connection settings</summary><label class="field"><span>API base URL</span><input id="apiBaseUrl" type="text" spellcheck="false" placeholder="http://localhost:8787" /></label><div class="row"><button id="save" type="button" class="secondary">Save settings</button><button id="test" type="button" class="secondary">Test</button></div></details>
+    <p class="note">Assessment is based on the listing content and is not proof that a job or company is real or fake.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>

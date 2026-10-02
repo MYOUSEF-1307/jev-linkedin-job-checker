@@ -1,0 +1,82 @@
+.jev-badge-host {
+  display: block;
+  margin-top: 4px;
+  line-height: 1;
+}
+
+.jev-badge {
+  display: inline-block;
+  font: 600 11px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.jev-green {
+  background: #e6f6ec;
+  color: #0b6b33;
+  border-color: #9ed9b4;
+}
+
+.jev-lime {
+  background: #f1f8e9;
+  color: #3e6b1f;
+  border-color: #c5dfa0;
+}
+
+.jev-amber {
+  background: #fff7e6;
+  color: #8a5a00;
+  border-color: #f0d090;
+}
+
+.jev-red {
+  background: #fdecea;
+  color: #a01a12;
+  border-color: #f2b1ab;
+}
+
+.jev-gray {
+  background: #f1f3f4;
+  color: #5f6368;
+  border-color: #dadce0;
+}
+
+.jev-pending {
+  background: #e8f0fe;
+  color: #1a73e8;
+  border-color: #aecbfa;
+}
+
+.jev-error {
+  background: #fce8e6;
+  color: #c5221f;
+  border-color: #f2b8b5;
+}
+
+.jev-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483647;
+  width: min(360px, calc(100vw - 40px));
+  padding: 14px;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  background: #101828;
+  color: #f8fafc;
+  box-shadow: 0 16px 48px rgb(0 0 0 / 28%);
+  font: 13px/1.45 system-ui, sans-serif;
+}
+.jev-panel strong { display: block; font-size: 17px; margin: 7px 0 2px; }
+.jev-panel__title { color: #94a3b8; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+.jev-panel__title button { float: right; border: 0; background: none; color: #cbd5e1; font-size: 20px; cursor: pointer; }
+.jev-risk { display: block; color: #cbd5e1; margin-bottom: 8px; }
+.jev-panel ul { margin: 0 0 8px; padding-left: 18px; }
+.jev-panel p { margin: 0; color: #94a3b8; font-size: 11px; }
+.jev-likely_legitimate strong { color: #86efac; }
+.jev-needs_caution strong, .jev-insufficient_information strong { color: #fcd34d; }
+.jev-suspicious strong { color: #fca5a5; }

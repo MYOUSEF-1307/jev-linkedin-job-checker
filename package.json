@@ -1,0 +1,15 @@
+{
+  "name": "jev-verify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LinkedIn job risk checker powered by Jev through OpenCode Zen",
+  "scripts": {
+    "smoke": "node scripts/smoke-test.mjs",
+    "dev": "node server/dev-server.mjs",
+    "start": "node server/dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
